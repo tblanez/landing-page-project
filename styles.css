@@ -5,10 +5,11 @@
     align-items: center;
 }
 
-.logo   {
+.top-header   {
     font-size: 24px;
     font-weight: bolder;
     color: #f9faf8;
+    display: flex;
 }
 
 ul {
@@ -21,4 +22,22 @@ a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
+}
+
+.second-header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.info-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: inline;
 }
