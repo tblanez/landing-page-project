@@ -98,3 +98,23 @@ button {
 .box {
     width: 150px;
 }
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 18px;
+    align-self: flex-end;
+}
