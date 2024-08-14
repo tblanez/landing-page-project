@@ -60,11 +60,13 @@ img {
     margin-left: 4px;
 }
 
-button {
+.header-button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 20px;
     border-radius: 8px;
+    border: none;
+    font-weight: bolder;
 }
 
 .header-two {
@@ -117,4 +119,27 @@ button {
     font-weight: bolder;
     font-size: 18px;
     align-self: flex-end;
+}
+
+
+.section-four {
+    padding: 90px 110px;
+}
+
+.call-action {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.call-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-weight: bolder;
 }
